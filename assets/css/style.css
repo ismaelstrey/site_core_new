@@ -778,17 +778,26 @@ margin-bottom: 15px;
 	padding-top: 60px;
 	padding-bottom: 30px;
 }
-.amazing_box {
-	margin-bottom: 30px;
-}
+
 .amazing_box{
-    border: 1px solid #d3d3d3;
+    margin-bottom: 30px;
+    /* border: 1px solid #d3d3d3; */
     position: relative;
     overflow: hidden;
+    height:200px;
 }
 .amazing_box img{
     width: 100%;
     height: auto;
+}
+
+.amazing_box video{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    user-select: none;
+    pointer-events: none;
+    border: none;
 }
 .amazing_box .amazing_content {
 	width: 100%;

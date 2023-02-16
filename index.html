@@ -58,7 +58,7 @@
 	<!-- END PRELODER -->
 
 	<!-- START HEADER -->
-	<header class="header_area">
+	<header class="header_area" id="home">
 		<div class="container">
 			<div class="row ">
 				<div class="col-xs-12 col-sm-8 col-md-8 ">
@@ -100,8 +100,8 @@
 				<div class="navbar-collapse collapse">
 					<nav class="navbar-center">
 						<ul class="nav navbar-nav navbar-right bg-black">
-							<li><a class="page-scroll" href="#fw_al_004">Home</a></li>
-							<li><a class="page-scroll" href="#about">Sobre</a></li>
+							<li><a class="page-scroll" href="#home">Home</a></li>
+							<li><a class="page-scroll" href="#sobre">Sobre</a></li>
 							<li><a class="page-scroll" href="#service">Serviços</a></li>
 							<!-- <li><a class="page-scroll" href="#testimonial">Testemunhos</a></li> -->
 							<li><a class="page-scroll" href="#contact">Contato</a></li>
@@ -186,7 +186,7 @@
 
 	</div> <!-- End Paradise Slider -->
 	<!-- END  HOME DESIGN -->
-
+	<span id="sobre" style="opacity: 0;">teste</span>
 	<!-- START ABOUT -->
 	<section id="about" class="about-area section-padding">
 		<div class="container">
@@ -258,42 +258,47 @@
 					<div class="service-box">
 						<i class="fa fa-solid fa-check"></i>
 						<h4>Consultoria</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi perferendis magnamea</p>
+						<p>Possuímos conhecimento e experiência para contribuir na melhor tomada de decisão para solução
+							de problemas.</p>
 					</div>
 				</div><!--- END COL -->
 				<div class="col-md-4 col-sm-6 col-xs-12 no-padding">
 					<div class="service-box">
 						<i class="fa fa-shield"></i>
 						<h4>Segurança</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi perferendis magnamea</p>
+						<p>Adoção de boas praticas de segurança para seu negócio, atualizações e mitigaçao de ataques.
+						</p>
 					</div>
 				</div><!--- END COL -->
 				<div class="col-md-4 col-sm-6 col-xs-12 no-padding">
 					<div class="service-box">
 						<i class="fa fa-arrows"></i>
 						<h4>Roteamento</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi perferendis magnamea</p>
+						<p>Configuração das principais marcas de roteadores do mercado aplicando as melhores praticas.
+						</p>
 					</div>
 				</div><!--- END COL -->
 				<div class="col-md-4 col-sm-6 col-xs-12 no-padding">
 					<div class="service-box">
 						<i class="fa fa-desktop"></i>
 						<h4>Virtualização</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi perferendis magnamea</p>
+						<p>Servidores de virtualização vmware, proxmox e xcp-server. Sitemas operacionail linux e
+							container em docker</p>
 					</div>
 				</div><!--- END COL -->
 				<div class="col-md-4 col-sm-6 col-xs-12 no-padding">
 					<div class="service-box">
 						<i class="fa fa-bar-chart"></i>
 						<h4>Monitoramento</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi perferendis magnamea</p>
+						<p>Monitoramento sos ativos via SNMP com ZABBIX & grafana e notificação via telegram.</p>
 					</div>
 				</div><!--- END COL -->
 				<div class="col-md-4 col-sm-6 col-xs-12 no-padding">
 					<div class="service-box">
 						<i class="fa fa-server"></i>
 						<h4>OLTs</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi perferendis magnamea</p>
+						<p>Suporte e configuração das principais marcas de OLTs Fiberhome, Zte, Huawei. Serviços de
+							dados e telefonia.</p>
 					</div>
 				</div><!--- END COL -->
 			</div><!--- END ROW -->
@@ -307,7 +312,7 @@
 			<div class="row">
 				<div class="col-md-4 col-sm-6">
 					<div class="amazing_box">
-						<img src="assets/img/amazing/img-1.jpg" alt="">
+						<img src="assets/img/amazing/img-1-1.jpg" alt="">
 						<div class="amazing_content">
 							<i class="fa fa-line-chart"></i>
 							<h3 class="post-title"> Estratégia</h3>
@@ -324,7 +329,7 @@
 				</div><!--- END COL -->
 				<div class="col-md-4 col-sm-6">
 					<div class="amazing_box">
-						<img src="assets/img/amazing/img-2.jpg" alt="">
+						<img src="assets/img/amazing/img-2-1.jpg" alt="">
 						<div class="amazing_content">
 							<i class="fa fa-bullhorn"></i>
 							<h3 class="post-title">Atendimento 24x7</h3>
@@ -342,7 +347,10 @@
 				</div><!--- END COL -->
 				<div class="col-md-4 col-sm-6">
 					<div class="amazing_box">
-						<img src="assets/img/amazing/img-3.jpg" alt="">
+						<!-- <img src="assets/img/amazing/img-3.jpg" alt=""> -->
+						<video autoplay loop muted>
+							<source src="assets/img/amazing/rede.mp4" type="video/mp4">
+						</video>
 						<div class="amazing_content">
 							<i class="fa fa-paper-plane"></i>
 							<h3 class="post-title">Documentação</h3>
@@ -705,7 +713,7 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="newsletter_title">
-						<h4>Deixe uma mensagem.</h4>
+						<h4>Gostaria de receber nossos E-mail?</h4>
 					</div>
 				</div>
 
@@ -794,7 +802,7 @@
 				<!-- END COL -->
 				<div class="col-xs-12 col-sm-4">
 					<div class="footer_top_service">
-						<h3 class="footer_title">Our Service</h3>
+						<h3 class="footer_title"></h3>
 						<ul>
 							<li><a href="#"><i class="fa fa-chevron-right"></i>Home</a></li>
 							<li><a href="#"><i class="fa fa-chevron-right"></i>Sobre</a></li>
